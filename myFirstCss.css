@@ -1,0 +1,20 @@
+/* Estilo tipo Id */
+#estilo1 {
+  color: #ffffff;
+
+  font-size: 15px;
+
+  background-color: #000000;
+
+  text-align: left;
+}
+/* Estilo tipo Classe */
+.clase1 {
+  font-style: italic;
+
+  font-size: 20px;
+
+  border-bottom: 1px #000000 dashed;
+
+  text-align: left;
+}
