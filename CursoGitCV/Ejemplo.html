@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="myFirstCss.css" />
+    <style>
+      .estiloTipoClase {
+        background-color: black;
+        color: aliceblue;
+      }
+      #estiloTipoId {
+        background-color: black;
+        color: aliceblue;
+      }
+    </style>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Mi CV - Proyecto Prueba</title>
+  </head>
+  <body>
+    <script>
+      function move() {
+        var elem = document.getElementById("myBar");
+        var width = 1;
+        var id = setInterval(frame, 10);
+        function frame() {
+          if (width >= 100) {
+            clearInterval(id);
+          } else {
+            width++;
+            elem.style.width = width + "%";
+          }
+        }
+      }
+    </script>
+    <table border="1" width="100%" align="center" cellpadding="10px">
+      <tr>
+        <td colspan="3">User Page Profile</td>
+      </tr>
+      <tr>
+        <td rowspan="3">
+          <div>
+            <div>
+              <div>
+                <img
+                  src="https://static.wikia.nocookie.net/nickelodeon/images/e/ed/ThWT9BS56M.jpg"
+                  alt="Imagen"
+                  width="200"
+                  height="200"
+                />
+              </div>
+              <div class="estiloTipoClase">Friends</div>
+              <div id="estiloTipoId">Send Message</div>
+            </div>
+            <div>
+              <div>
+                <h1>Calamardo</h1>
+              </div>
+              <div>
+                <h3>Representante Preparatoria 21, Inc.</h3>
+              </div>
+              <div>
+                <p>
+                  Cuidar los protocolos sanitarios<br />
+                  Anunciar Inicio de clases en TV<br />
+                  Levantar reportes<br />
+                </p>
+              </div>
+            </div>
+          </div>
+        </td>
+        <td colspan="2">
+          <ul
+            style="
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              overflow: hidden;
+              background-color: #333;
+            "
+          >
+            <li
+              style="
+                float: left;
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+              "
+            >
+              Profile
+            </li>
+            <li
+              style="
+                float: left;
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+              "
+            >
+              Project
+            </li>
+            <li
+              style="
+                float: left;
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+              "
+            >
+              Photos
+            </li>
+            <li
+              style="
+                float: left;
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+              "
+            >
+              Friends
+            </li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <table border="1" width="100%" align="center" cellpadding="10px">
+            <tr>
+              <td><i class="fa fa-user fa-lg"></i></td>
+              <td colspan="3">About</td>
+            </tr>
+
+            <tr>
+              <td>First Name:</td>
+              <td>Calamardo</td>
+              <td>Last Name:</td>
+              <td>Tentaculos</td>
+            </tr>
+            <tr>
+              <td>User Name:</td>
+              <td>Calamardo</td>
+              <td>Email</td>
+              <td>Calamardo@krustykrab.com</td>
+            </tr>
+            <tr>
+              <td>City:</td>
+              <td>Oceano</td>
+              <td>Country:</td>
+              <td>United States</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div>
+            <div><i class="fa fa-file-text-o fa-lg"></i> Experience</div>
+            <div>
+              <ul>
+                <li>text 1</li>
+                <li>text 2</li>
+                <li>text 3</li>
+              </ul>
+            </div>
+          </div>
+        </td>
+        <td>
+          <div>
+            <div class="clase1">
+              <i class="fa fa-trophy fa-lg"></i> Education
+            </div>
+            <div>
+              <ul>
+                <li>Primaria Alfonso Guerrero</li>
+                <li>Preparatoria Venustiano Carranza</li>
+                <li>Universidad Tecnologico de la Laguna</li>
+              </ul>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div>
+            <div>
+              <div>Icono</div>
+              <div>Friends</div>
+            </div>
+            <div>
+              <div>
+                <div>
+                  <img
+                    style="
+                      vertical-align: middle;
+                      width: 50px;
+                      height: 50px;
+                      border-radius: 50%;
+                    "
+                    src="https://static.wikia.nocookie.net/youtubepedia/images/6/61/BobEsponga_Espa%C3%B1ol.png/revision/latest/scale-to-width-down/350?cb=20210210163658&path-prefix=es"
+                    alt="Avatar"
+                    class="avatar"
+                  />
+                </div>
+                <div>
+                  <img
+                    style="
+                      vertical-align: middle;
+                      width: 50px;
+                      height: 50px;
+                      border-radius: 50%;
+                    "
+                    src="https://phoneky.co.uk/thumbs/wallpapers/p2ls/drawings/49/0a7eaea812842602.jpg"
+                    alt="Avatar"
+                    class="avatar"
+                  />
+                </div>
+                <div>
+                  <img
+                    style="
+                      vertical-align: middle;
+                      width: 50px;
+                      height: 50px;
+                      border-radius: 50%;
+                    "
+                    src="https://img.playbuzz.com/image/upload/q_auto:good,f_auto,fl_lossy,w_480,c_limit,dpr_2.5/v1494881825/dfduxvpwk8geii2l3wvp.png"
+                    alt="Avatar"
+                    class="avatar"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+        <td>
+          <div>
+            <div>Activity</div>
+            <div>
+              <div>img</div>
+              <div>
+                <div>text</div>
+                <div>text</div>
+              </div>
+            </div>
+          </div>
+        </td>
+        <td>
+          <div>
+            <div>
+              <div>Icono</div>
+              <div>Skill</div>
+            </div>
+            <div>
+              <div>Fotogenico</div>
+              <div>
+                <div style="border: 1px solid #ccc !important">
+                  <div
+                    style="
+                      height: 24px;
+                      width: 100%;
+                      background-color: #9e9e9e !important;
+                    "
+                  ></div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div>Trabajo en equipo</div>
+              <div>
+                <div style="border: 1px solid #ccc !important">
+                  <div
+                    style="
+                      height: 24px;
+                      width: 80%;
+                      background-color: #9e9e9e !important;
+                    "
+                  ></div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div>Modelar</div>
+              <div>
+                <div style="border: 1px solid #ccc !important">
+                  <div
+                    style="
+                      height: 24px;
+                      width: 90%;
+                      background-color: #9e9e9e !important;
+                    "
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
